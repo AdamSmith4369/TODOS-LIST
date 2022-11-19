@@ -1,0 +1,39 @@
+#navbar {
+  background-color: rgb(255, 115, 0);
+  text-align: center;
+  padding: 2rem;
+}
+
+#girdi {
+  width: 70%;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+#btn {
+  width: 20%;
+  background-color: rgb(115, 115, 115);
+  height: 2.3rem;
+  cursor: pointer;
+}
+
+#btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(131, 126, 126);
+}
+
+li:nth-child(odd) {
+  background-color: rgb(201, 200, 200);
+}
+
+#ulList {
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: rgb(169, 169, 169);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
